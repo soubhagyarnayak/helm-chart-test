@@ -21,3 +21,8 @@ steps:
   inputs:
     command: 'package'
     chartPath: './helloworld-chart'
+- task: HelmDeploy@0
+  inputs:
+    command: 'save'
+    chartPath: './helloworld-chart'
+    chartName: 'helloworld-chart'
