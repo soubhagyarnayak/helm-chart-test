@@ -26,3 +26,4 @@ steps:
     command: 'save'
     chartPath: './helloworld-chart'
     chartName: 'helloworld-chart'
+    chartReference: 'helloworld-chart'
