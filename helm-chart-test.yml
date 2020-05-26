@@ -10,6 +10,9 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+variables:
+  HELM_EXPERIMENTAL_OCI: 1
+
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
